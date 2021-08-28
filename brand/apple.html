@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      
+      .back {
+        position: relative;
+        opacity: 1;
+        text-align: center;
+        width: 100%;
+        height: auto;
+      }
+      .container {
+        text-align: center;
+      }
+      .about {
+        text-align: center;
+      }
+      
+      .hidden {
+        text-align: center;
+        display: none;
+      }
+      .item {
+        text-align: start;
+        /* box-sizing: content-box;
+        padding-left: 50px;
+        padding-right: 60rem; */
+        font-size: 1rem;
+        padding-bottom: 30px;
+      }
+      .gallery {
+        position: relative;
+        text-align: center;
+        font-size: 1rem;
+      }
+      /* slider */
+
+      body {
+        
+        font-family: 'Hina Mincho', serif;
+        background-color: darkgray;
+      }
+
+      .gallery{
+        text-align: center;
+        font-size: 30px;
+
+      }
+      /* Number text (1/3 etc) */
+
+      @media (max-width: 800px) {
+        .container {
+          text-align: center;
+          font-size: 1rem;
+        }
+        .about {
+          text-align: center;
+          font-size: 1rem;
+        }
+        .back {
+          /* background-image: url(https://m.media-amazon.com/images/G/31/img20/Wireless/Apple/iPhone12/AMZ_FamiyStripe_iPhone_12ProMax._CB419233187_.png); */
+          display: none;
+
+        }
+        .hidden {
+          text-align: center;
+          /* display: grid; */
+          display:flex;
+          width: auto;
+          height: auto;
+        }
+        .item {
+          text-align: center;
+          /* display: flex; */
+          font-size: 20px;
+          height: min-content;
+          /* padding-left: 30px; */
+          
+        }
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Apple iPhone 12</h1>
+    </div>
+    <div class="hidden">
+      <img
+        src="https://www.pngall.com/wp-content/uploads/5/iPhone-12-PNG-Images.png"
+        alt=""
+        width="700"
+        height="900"
+      />
+    </div>
+    <div class="back">
+      <img
+        src="https://www.pngall.com/wp-content/uploads/5/Apple-iPhone-12-Transparent.png"
+        width="700"
+        height="600"
+        alt=""
+      />
+    </div>
+    <div class="about">
+      <h2>About this item</h2>
+    </div>
+    <div class="item">
+      <ul>
+        <p>
+       <span>1.</span> 1-inch (15.5 cm diagonal) Super Retina XDR display,
+       <span>2.</span> Ceramic Shield, tougher than any smartphone glass
+        A14 Bionic chip, the fastest chip ever in a smartphone,
+        
+         <span>3.</span> Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras; 4x
+          optical zoom range; Night mode, Deep Fusion, Smart HDR 3, Apple
+          ProRAW, 4K Dolby Vision HDR recording,
+        
+        <span>4.</span> LiDAR Scanner for improved AR experiences, Night mode portraits
+        
+          12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR
+          recording,
+        
+        <span>5.</span> Industry-leading IP68 water resistance
+          Supports MagSafe accessories for easy attach and faster wireless
+          charging
+          iOS with redesigned widgets on the Home screen, all-new App Library,
+          App Clips and more
+          
+        </p>
+        <div class="gallery">
+          <a href="/brand/gallery.html" class="gallery">Gallery</a>
+        </div>
+        
+    </div>
+  </body>
+</html>
